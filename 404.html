@@ -1,17 +1,7 @@
-<script src="http://cdn.bootcss.com/purl/2.3.1/purl.min.js"></script>
+<script language="javascript" type="text/javascript">
 
-<script>
-var url = purl();
-if (url.attr('host') == 'ihtc.cc') {
-    var old_url = url.attr('source');
-    var new_url = old_url.replace('ihtc.cc', "ihtcboy.com");
-    window.location.replace(new_url); 
-}else if (url.attr('host') == 'www.ihtc.cc') {
-    var old_url = url.attr('source');
-    var new_url = old_url.replace('www.ihtc.cc', "ihtcboy.com");
-    window.location.replace(new_url);
-}else {
-    window.location.href="https://ihtcboy.com";
+if (location.href == "http://chen.yanping.me/art/") {
+	window.location.replace("http://art.yanping.me/");
 }
-    
+
 </script>
